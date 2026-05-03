@@ -65,7 +65,7 @@ const Heropallete = () => {
           columnClassName="flex flex-col gap-4"
         >
           {HerolowerImages.map((img, i) => (
-            <img key={i} src={img} className="rounded-xl" />
+            <img key={i} loading="lazy" src={img} className="rounded-xl" />
           ))}
         </Masonry>
       </div>
