@@ -41,6 +41,7 @@ const Heropallete = () => {
       <div className=" bg-[#C6AC8F] h-96 w-[97vw] rounded-3xl flex justify-center items-center">
         <Swiper
           effect={"cards"}
+          lazy={true}
           grabCursor={true}
           autoplay={{
             delay: 1000,
