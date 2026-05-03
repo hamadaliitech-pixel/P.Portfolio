@@ -5,7 +5,7 @@ import Masonry from "react-masonry-css"; //Got installed
 import { Autoplay,EffectCards  } from "swiper/modules";
 import { heroImages } from "../assets/HeaderContent/Image.jsx";
 import { Swiper,SwiperSlide } from "swiper/react"; //Got installed
-
+import imges from "../assets/HeaderContent/slider.jpg"
 const Heropallete = () => {
   const breakpointColumnsObj = {
     default: 5,
@@ -43,7 +43,7 @@ const Heropallete = () => {
           effect={"cards"}
           grabCursor={true}
           autoplay={{
-            delay: 2500,
+            delay: 1000,
             disableOnInteraction: false,
           }}
           modules={[EffectCards, Autoplay]}
@@ -69,6 +69,8 @@ const Heropallete = () => {
         </Masonry>
       </div>
       {/* Footer */}
+      <img src={imges} alt="photo" />
+
     </div>
   );
 };

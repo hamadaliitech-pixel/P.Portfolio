@@ -1,11 +1,11 @@
-import img1 from "./Slide1.jpg";
-import img2 from "./Slide2.jpg";
-import img3 from "./Slide3.jpg";
-import img4 from "./Slide4.jpg";
-import img5 from "./Slide5.jpg";
-import img6 from "./Slide6.jpg";
-import img7 from "./Slide7.jpg";
-import img8 from "./Slide8.jpg";
+import img1 from "./Slide1.webp";
+import img2 from "./Slide2.webp";
+import img3 from "./Slide3.webp";
+import img4 from "./Slide4.webp";
+import img5 from "./Slide5.webp";
+import img6 from "./Slide6.webp";
+import img7 from "./Slide7.webp";
+import img8 from "./Slide8.webp";
 
 export const HerolowerImages = [
   img6,
