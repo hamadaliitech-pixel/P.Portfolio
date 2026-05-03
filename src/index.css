@@ -3,6 +3,9 @@
 body {
   background-color: #eae0d5;
 }
+html{
+  scroll-behavior:auto;
+}
 .thecover {
   background-image: url(./assets/Main.jpg);
 }
